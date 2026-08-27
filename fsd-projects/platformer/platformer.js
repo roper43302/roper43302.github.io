@@ -14,6 +14,7 @@ $(function () {
       firstTimeSetup = false;
       //start game
       setInterval(main, 1000 / frameRate);
+
     }
 
     // Create walls - do not delete or modify this code
@@ -31,18 +32,17 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(500, 0, 20, 290, "magenta");
-createPlatform(1350, 400, 50, 50, "red");
-createPlatform(1, 200, 200, 20, "lime");
-createPlatform(200, 20, 20, 90, "blue");
-createPlatform(700, 500, 1300, 3000, "orange");
-createPlatform(300, 400, 400, 10, "black");
-createPlatform(300, 10, 13, 250, "maroon");
-createPlatform(300, 380, 13, 250, "purple");
-createPlatform(800, 300, 40, 10, "gray")
-createPlatform(900, 300, 40, 10, "gray")
-createPlatform(1000, 300, 40, 10, "gray")
-createPlatform(1200, 0, 13, 400, "gray")
+createPlatform(1350, 400, 50, 50, "");
+createPlatform(1, 200, 200, 20, "");
+createPlatform(180, 20, 20, 90, "");
+createPlatform(700, 500, 1300, 3000, "");
+createPlatform(300, 400, 400, 10, "");
+createPlatform(300, 10, 13, 250, "");
+createPlatform(300, 380, 13, 250, "");
+createPlatform(800, 300, 40, 10, "")
+createPlatform(900, 300, 40, 10, "")
+createPlatform(1000, 300, 40, 10, "")
+createPlatform(1200, 0, 13, 400, "")
 
 
 
@@ -61,7 +61,7 @@ createCannon("left", 320, 1000);
 createCannon("bottom", 1000, 500);
 createCannon("bottom", 900, 500);
 createCannon("bottom", 800, 500);
-
+createCannon("bottom", 700, 500);
 
     
     
